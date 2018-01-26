@@ -1,0 +1,66 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.Name a{
+  color: royalblue;
+  text-decoration: none;
+}
+
+.test p{
+  color: black;
+  font-family: "Comic Sans MS";
+
+}
+
+.test{
+  layout: row;
+  layout-align: start;
+}
+
+img{
+  height: 25%;
+  width: 40%;
+}
+
+.test ul {
+  display: inline;
+  list-style: none;
+  width: 100%;
+}
+
+.test ul li {
+  float: left;
+  width: 33%;
+}
+
+body{
+  background-image: url("photos/back2.jpg");
+  background-size: cover;
+}
+
+
+
+

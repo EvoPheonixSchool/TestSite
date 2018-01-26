@@ -1,0 +1,12 @@
+<div class="test">
+<ul ng-repeat="x in projects" class="test">
+    <li>
+    <p>Name: {{x.name}}</p>
+    <img ng-src="{{x.pic}}">
+    <p>Start: {{x.start | date}}</p>
+    <p>Finish: {{x.release | date}}</p>
+    <p>Description: {{x.desc}}</p>
+    <p>Active: {{x.active}}</p></li>
+</ul></div>
+
+<script src="view1.js"></script>
